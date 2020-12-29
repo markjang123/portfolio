@@ -3117,11 +3117,21 @@ input, select, textarea {
 				display: block;
 				margin: 0 0 1.5em 0;
 			}
+			#header.alt .image-wrapper {
+				height: 150px;
+				width: 150px;
+				overflow: hidden;
+				border-radius: 100px;
+				margin: 0 auto;
+			}
 
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
-					max-width: 75%;
+					height: 200px;
+					width: 150px;
+					/* max-width: 75%; */
+					
 				}
 
 		@media screen and (max-width: 1280px) {
