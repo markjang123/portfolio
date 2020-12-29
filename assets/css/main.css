@@ -3118,8 +3118,8 @@ input, select, textarea {
 				margin: 0 0 1.5em 0;
 			}
 			#header.alt .image-wrapper {
-				height: 150px;
-				width: 150px;
+				height: 200px;
+				width: 200px;
 				overflow: hidden;
 				border-radius: 100px;
 				margin: 0 auto;
@@ -3128,8 +3128,8 @@ input, select, textarea {
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
-					height: 200px;
-					width: 150px;
+					height: 260px;
+					width: 200px;
 					/* max-width: 75%; */
 					
 				}
