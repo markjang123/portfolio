@@ -3000,15 +3000,18 @@ input, select, textarea {
 		.spotlight .image {
 			display: inline-block;
 			margin-left: 4em;
-			padding: 0.65em;
+			/* padding: 0.65em; */
 			border-radius: 100%;
 			border: solid 1px;
+			height: 350px;
+			width: 350px;
+			overflow: hidden;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
-				width: 16em;
+				margin: 0 auto;
+				height: 465px;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3793,3 +3796,23 @@ input, select, textarea {
 			}
 
 		}
+.skills-list {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: left;
+}
+	
+
+.skill {
+	padding: 0;
+	margin: 10px;
+	list-style: none;
+	display: inline-block;
+	width: 125px;
+	font-weight: bold;
+
+}
+.skill img {
+	height: 125px;
+	width: 125px;
+}
