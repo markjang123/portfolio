@@ -1842,7 +1842,7 @@ input, select, textarea {
 		border-radius: 8px;
 		border: 0;
 		cursor: pointer;
-		display: inline-block;
+		display: block;
 		font-weight: 300;
 		height: 2.75em;
 		line-height: 2.75em;
@@ -1851,6 +1851,9 @@ input, select, textarea {
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
+		margin-bottom: 10px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 		input[type="submit"].icon,
@@ -2509,16 +2512,33 @@ input, select, textarea {
 		}
 
 		ul.actions.special {
-			-moz-justify-content: center;
+			/* -moz-justify-content: center;
 			-webkit-justify-content: center;
-			-ms-justify-content: center;
-			justify-content: center;
+			-ms-justify-content: center; */
+			/* justify-content: center; */
 			width: 100%;
-			margin-left: 0;
+			/* margin-left: 0; */
+			text-align: center;
+			padding: 0 auto;
+			/* border: 1px solid black; */
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			/* justify-content: space-between; */
 		}
+	
+		#project-links, #project-links-2, #project-links-3 {
+			padding: 0 auto;
+			margin: 0;
+		}
+	
 
 			ul.actions.special li:first-child {
 				padding-left: 0;
+				margin: 0 auto;
+			}
+			ul.actions.special li:last-child {
+				padding: 0 auto;
 			}
 
 		ul.actions.stacked {
@@ -3426,6 +3446,7 @@ input, select, textarea {
 				background-color: #8cc9f0;
 				color: #ffffff !important;
 				box-shadow: none;
+				
 			}
 
 				#main input[type="submit"].primary:hover,
