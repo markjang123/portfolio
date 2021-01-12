@@ -3020,17 +3020,19 @@ input, select, textarea {
 			display: inline-block;
 			margin-left: 4em;
 			/* padding: 0.65em; */
+			padding: 0;
 			border-radius: 100%;
 			border: solid 1px;
-			height: 350px;
-			width: 350px;
+			height: 20em;
+			width: 20em;
 			overflow: hidden;
 		}
 
 			.spotlight .image img {
 				display: block;
-				margin: 0 auto;
-				height: 465px;
+				margin: 0;
+				padding: 0;
+				height: 27em;			
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3065,13 +3067,9 @@ input, select, textarea {
 					}
 
 				.spotlight .image {
-					-moz-flex: 0 1 auto;
-					-webkit-flex: 0 1 auto;
-					-ms-flex: 0 1 auto;
-					flex: 0 1 auto;
-					margin-left: 0;
-					margin-bottom: 2em;
+					display: none;
 				}
+			
 
 		}
 
